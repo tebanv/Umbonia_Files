@@ -1,0 +1,512 @@
+/* GENERAL */
+body {
+    z-index: 1;
+    background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzc2NzM2ZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMyMzIzMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
+  }
+  
+  /*hide dot navigation on phones and tablets*/
+  @media only screen and (max-width:980px) {
+  ul.et_pb_side_nav.et-visible {
+  display: none;
+  }
+  }
+  
+  /*show dot navigation side left*/
+  ul.et_pb_side_nav {
+   top: 45%;
+   left: 0.80%;
+   width: auto;
+   padding: 18px;
+  }
+  
+  /* Side Nav Background */
+  ul.et_pb_side_nav {
+  background: rgba(0,9,0,0);
+  }
+  
+  /*list separated dot navigation*/
+  ul.et_pb_side_nav li.side_nav_item {
+   padding: 7px;
+  }
+  
+  .et_header_style_centered #main-header .container{
+  margin-top: -90px;
+  }
+  
+  
+  /* HOME */
+  #home {
+       background: url(
+      https://umboniamusic.com/wp-content/uploads/2017/08/nature-forest-plant-tropic-Recuperado-9879798.jpg);
+      height: 97vh;
+      min-height: 96vh;
+  margin-right: -10px;
+  z-index: 1;
+          background-size: cover;
+  background-position: center;
+      background-repeat:no-repeat;
+  position: initial;
+  }
+  /*Slide de frases*/
+  .et_pb_slide_description{
+      margin-top:80px;
+  }
+  @media only screen and (max-width:980px) {
+  .et_pb_slide_description{
+      margin-top:20px;
+  }
+  }
+  @media screen and (max-width:980px) {
+  .mobile_nav{
+          margin-top: -65px;
+  }
+  }
+  #frases .et_pb_slide_content {
+      font-size: 16px;
+          color: #E19B17;
+          font-weight: 70;
+  }
+  
+  /** EVENTOS **/
+  #events .et_pb_slides .et_pb_slider_container_inner .et_pb_slide_image img {
+      margin: opx;
+  }
+  #events .et_pb_slide_0 {
+  height: 97.6vh;
+  }
+  
+  /** CONTACTO **/
+  
+  #contact_header_title > div > div > div > h1 {
+      padding-top: 47px;
+      -webkit-font-smoothing: antialiased;
+  -webkit-box-direction: normal;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent;
+  padding-bottom: 10px;
+  line-height: 1em;
+  font-weight: 700;
+  font-size: 23px;
+  color: #eae200!important;
+  } 
+  #contact_body {
+      min-height: 800px;
+  }
+  
+  #contact_body img {
+    height: 40px;
+    weight:40px;
+    /*opacity: 0.85;*/
+    transition: all .2s ease-out;
+  }
+  
+  #contact_body img.alineadoTextoImagenCentro{
+    vertical-align: middle;
+    /* Ojo vertical-align: text-middle no existe*/
+  }
+  
+  /** ARTISTAS **/
+  @import url('https://fonts.googleapis.com/css?family=Oxygen');
+  .slidee{
+    font-family: 'Oxygen', sans-serif;
+  }
+  #artistas {
+   background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzc2NzM2ZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMyMzIzMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
+  height: 97.6vh;
+  min-height: 900px;
+  }
+  .profile--info {
+      text-align: left;
+  }
+  a:-webkit-any-link{
+      cursor:pinter;
+  }
+  
+  #example .loading_artist img {
+    width:140%; 
+    height:15%;
+    display:block;
+    margin:auto;
+    position: absolute;  
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;
+  }
+  
+  #example .cargando { 
+    width:10%; 
+    height:1%;
+    margin:auto;
+    text-align: center; 
+    top: 0; 
+    bottom: 0;  
+    left: 0;  
+    right: 0;
+    padding: 110px 0 0 0;
+    position: absolute;
+    font-size: 1.00em;
+    font-family: 'Oxygen', sans-serif;
+    color: #dab90f !important;
+  } 
+  
+  .profile--info span {
+      z-index: 1;
+      left: 15px;
+      top: 15px;
+      font-size: 1em;
+      color: rgba(84, 95, 89, 0.75);
+      display: block;
+  }
+  
+  .profile--info span.username {
+      font-weight: 800;
+      font-style: normal;
+      font-size: 1.25em;
+      color: #dab90f;
+      text-align: center;
+  }
+  
+  .profile--info span.userquote {
+      margin-top: -15px;
+      font-size: 0.85em;
+      color: rgba(84, 95, 89, 0.75);
+      text-align: center;
+      color: #dab90f !important;
+  }
+  
+  .user {
+      background: url(https://umboniamusic.com/wp-content/uploads/2020/08/tumblr_mjw04sNlr01qg39ewo1_500.gif);
+      background-position-y: 1%;
+      width: 100%;
+      margin-top: 0;
+      max-height: 500px;
+      position: relative;
+      padding: 0 30px;
+      box-sizing: border-box;
+      opacity: 0.99s;
+  }
+  
+  .user-social-wrapper {
+      display: flex;
+      justify-content: space-around;
+      position: relative;
+      margin: 20px 0 0 0;
+      padding: 25px 0 0 0;
+  }
+  
+  .user-social-wrapper::after,
+  .user-social-wrapper::before {
+      /*content: "";*/
+      display: block;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 1px;
+      background-color: rgba(241, 193, 226, 0.5);
+  }
+  
+  .user-social-wrapper::before {
+      top: initial;
+      bottom: 0;
+  }
+  
+  .user-social-wrapper .user-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-weight: 260;
+  /*     flex: 1 1; */
+  }
+  
+  .user-social-wrapper .user-info span:first-child {
+      font-size: 1.50em;
+  }
+  
+  .user-social-wrapper .user-info span:last-child {
+      font-size: 1em;
+      color: rgba(84, 95, 89, 0.75);
+  }
+  
+  
+  div#foto {
+    filter: grayscale(100%);
+  }
+  div#foto:hover{
+      filter: grayscale(0%);
+  }
+  div#foto:hover .byn{
+      filter: sepia(60%);
+  }
+  
+  div#foto:hover p{
+    opacity: 0.7;
+  }
+  #description:hover {
+    opacity: 0.7;
+  }
+  #description p {
+    font-weight: 530;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+    position: absolute;
+    top: 37%;
+    width: 100%;
+    color: #f8f8f8;
+    opacity: 0;
+    text-align: center;
+  }
+  #description :hover p{
+    opacity: 1;
+  }
+  
+  #info.user  {
+    margin-top:-18px;
+    top:0px;
+    padding-top: 11px;
+  }
+  #info .profile-social-links{
+    background: transparent;
+    margin-top: -20px;
+  }
+  #info .wave{
+      margin-left: -250px;
+      margin-top: -60px;
+  }
+  .carousel-3d-slide{
+    box-shadow: 0 10px 7px -5px rgba(0, 0, 0, 0.4) !important;
+  }
+  .carousel-3d-slider[data-v-c06c963c]{
+    height:450px
+  }
+  
+  /** RESPONSIVE **/
+  @MEDIA only screen and (max-width: 980px) {
+      .mobile_nav .select_page{
+          color: rgba(0,0,0,.1) !Important;
+      }
+  }
+  
+  @media screen and (min-width: 769px) {
+  }
+  /*
+        width: 369.6px;
+        height: 471px;
+        object-fit: unset;
+  */
+  /*Otro */
+  /* large phones and small tablets */  /* 500px / 16px = 31.25em */
+  @media screen and (max-width: 500px) {
+      #artistas {
+  height: 100%;
+          min-height: 700px;
+  }
+      .carousel-3d {
+          /*height: 541.2px !important;
+          height: 630.2px !important*/
+      }
+      .carousel-3d-container{
+          /*height: 541.2px !important;
+          height: 630.2px !important*/
+      }
+      .carousel-3d-slider[data-v-c06c963c]{
+          /*height: 541.2px !important;
+          height: 630.2px !important;
+          width: 369.6px !important;*/
+      }
+      .carousel-3d-slide.slidee{
+          /*height: 541.2px !important;
+          height: 630.2px !important;
+          width: 369.6px !important;*/
+      }
+      #info.user  {
+          margin-top:00px;
+          top:0px;
+          padding-top: 11px;
+      }
+  }
+  
+  /* tablets and small monitors */ /* 800px / 16px = 50em */
+  
+  
+  
+  /* laptops and desktops */ /* 1200px / 16px = 75em */
+  @media screen and (
+      min-width: 75em) {
+          
+  }
+    
+  /*Social icons*/
+  .profile-social-links {
+   /* box-shadow: 0 10px 20px 0px rgba(136, 138, 119, 0.3), 0px 0px 0px 0 rgba(0, 0, 0, 0.19);*/
+    position: relative;
+    background-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+    padding: 3px 0;
+  }
+  .profile-social-links li {
+    display: inline-block;
+    padding: 5px 5px 0;
+    height: 60px;
+    width:40px;
+  }
+  .profile-social-links li img {
+    height: 40px;
+    weight:40px;
+    /*opacity: 0.85;*/
+    transition: all .2s ease-out;
+  }
+  .profile-social-links li a:hover img {
+    opacity: 1;
+    -webkit-transform: scale(1.1, 1.1);
+            transform: scale(1.1, 1.1);
+  }
+  .profile-social-links:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(255, 255, 255, 0);
+    /*border-bottom-color: #ffffff;*/
+    border-width: 10px;
+    margin-left: -10px;
+  }
+  
+  .carousel-3d-controls a span{
+      color: #dab90f;
+         z-index: 9999;
+  }
+  
+  /** FOOTER **/
+  #artistas {
+      
+  }
+  
+  /** PRUEBA **/
+  html body div#et-footer-nav ul.bottom-nav {
+  padding-top: 0;
+  
+  }
+  
+  html body div#et-footer-nav {
+  height: auto;
+  }
+  
+  /** ABOUT US **/
+  #about_us {
+  background: url("https://lh3.googleusercontent.com/SejOS3JHXI8CgGXwMuntrmAojEC-Qd7SqIMFigSyyOfdZzfB8YSucpPHKaS0cCd255PuQzW01kH49ebjBLWmot0KkFjvMPhmGcQV4nF3UKrvu6HqcCZlc5ngUAocgFiHiDUQhCiGnY750m8_Bs3zVa4tGmLe2a2kRDdGWE_tQzsfahzRLgBhL1lLIAvqX29u_Fo2p1Ei5twOi3u-Ive_I-BykfCWCEte7HS0numqm1saM71Ttml8UGluvVInbDWlCCJy21-mSf2heJIt7FP8gy-80-W1FSp-t1j3nqKPMWSTK4IxkSg4SaMIQgMdqEqm2AJQahsJ4z2MMBSZ_uco4UWU3WoKTNC2o8ah1Vt-BjihQb3mByhu_4vDFRUjwVgLURJm819dkvXcCLkkRvy1uKYsE1jLIuVnm4WZ1sZgVDjHQxgUGMaxpfaJvHW3aY8u52uY2nO5imLwG_C0K68dJ86RGqpLh1GlLpFivTh19sceaw5Fcj3Dx3-4y8HXlq7Z_-yQZCNxvouw5Zc6S9mnJujEo2XGsmaKk0By_UEKru0j1mZsWefVUcTmiPqEK3FGCG5APKcHp8i_1mCI5xrfcD2x8yzgVxW9p-2r1793-R-KPtzxw8GJVBTR214pT9HPX3b1mj3yqGmo39ZTv1RpS2Nkd7fnUAx8jRYkclI5tyTRZMn03c8j3on3mHAe91SnfIRzIQ=w1998-h1310-ft");
+      background-size: cover;
+      height: 97.6vh;
+  position: initial;
+  z-index: 1;
+  }
+  
+  /*** RELEASES MAIN ***/
+  
+  /** HERE RELEASES VA **/
+  
+  /** RELEASES GRID **/
+  
+  /*Home - Releases*/
+  #releases_grid_home {
+      background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzc2NzM2ZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMyMzIzMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
+  height: 100%;
+  min-height: 100%;
+  padding-bottom: 35px;
+  }
+  
+  /*Releases*/
+  #releases_grid {
+      background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzc2NzM2ZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMyMzIzMCIvPjwvcmFkaWFsR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==");
+  height: 100%;
+  min-height: 900px;
+      
+  }
+  
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      grid-gap: .4rem;
+      grid-auto-flow: dense;
+  }
+  
+  .grid_release p {
+      text-align: center;
+      font-size: 98%;
+      padding: .6rem;
+      font-weight: bold;
+      overflow-x: hidden;
+      color: #d1d412!important
+  }
+  
+  .grid-container .grid_release img {
+      width: 100%;
+      max-width: 270px;
+      height: auto;
+      min-height: 232px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      object-fit: cover;
+      place-self: stretch;
+      object-position: 50% 50%;
+      text-align: center;
+      position: relative;
+  }
+  
+  #releases .loading_releases img {
+      width: 5%;
+      height: 14%;
+      display: block;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+  }
+  
+  #releases .cargando {
+      width: 10%;
+      height: 1%;
+      margin: auto;
+      text-align: center;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: 110px 0 0 0;
+      position: absolute;
+      font-size: 1.00em;
+      font-family: 'Oxygen', sans-serif;
+      color: #dab90f !important;
+  } 
+  
+  #titulo_lanzamientos.et_pb_fullwidth_header {
+      padding-top: 87px !important;
+      }
+  
+  
+  @media screen and (min-width: 374px) {
+      .et_pb_fullwidth_code_0 #releases { 
+  grid-template-columns: 1fr;
+  padding-top: 0px !important;
+  padding-bottom: 50px !important;
+  }
+   #titulo_lanzamientos.et_pb_fullwidth_header {
+          padding-top: 5px;
+      }
+  }
