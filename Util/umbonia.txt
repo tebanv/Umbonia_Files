@@ -1,0 +1,14 @@
+
+
+Titulo del sitio: umbonia
+
+Nombre de usuario: esteban
+
+contraseña : KK9Ald0SCmjY7i!MPf
+
+
+Actalizar :
+
+sudo chown -R www-data /var/www/html
+
+sudo chown -R esteban /var/www/html	

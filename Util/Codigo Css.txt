@@ -1,0 +1,31 @@
+/ *hide dot navigation on phones and tablets* /
+@media screen and (max-width:980px) {
+.et_pb_side_nav.et-visible {
+display: none;
+}
+}
+
+/* Side Nav Background */
+ul.et_pb_side_nav {
+background: rgba(0,9,0,0);
+}
+
+/*hide dot navigation on phones and tablets*/
+@media only screen and (max-width:980px) {
+ul.et_pb_side_nav.et-visible {
+display: none;
+}
+}
+
+/*show dot navigation side left*/
+ul.et_pb_side_nav {
+ top: 45%;
+ left: 0.80%;
+ width: auto;
+ padding: 18px;
+}
+
+/*list separated dot navigation*/
+ul.et_pb_side_nav li.side_nav_item {
+ padding: 7px;
+}

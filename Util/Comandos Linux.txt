@@ -1,0 +1,8 @@
+//Reinicia sercivio de red
+# service network restart
+
+//Ruta de interfaces de red
+# /etc/network/interfaces
+
+//ip podemos ver y configurar las rutas estáticas
+# ip route show

@@ -1,0 +1,37 @@
+<div id="main-content">
+ <ul class="et_pb_side_nav et-visible" style="margin-top: -70px;">
+  <li class="side_nav_item"><a href="#" id="side_nav_item_id_0" class="active">Inicio</a></li>
+  <li class="side_nav_item"><a href="#" id="side_nav_item_id_1" class="">1</a>Eventos</li>
+  <li class="side_nav_item"><a href="#" id="side_nav_item_id_2" class="">2</a>About Us</li>
+  <li class="side_nav_item"><a href="#" id="side_nav_item_id_3" class="">3</a>Contact</li>
+  <li class="side_nav_item"><a href="#" id="side_nav_item_id_4" class="">4</a>Music</li></ul>
+ </ul>
+
+
+ul.et_pb_side_nav li.side_nav_item {
+    padding: 7px;
+}
+
+ul.et_pb_side_nav.et-visible {
+    opacity: 1;
+    -webkit-animation: fadeInRight 1.5s 1 cubic-bezier(.77,0,.175,1);
+    -moz-animation: fadeInRight 1.5s 1 cubic-bezier(.77,0,.175,1);
+    -o-animation: fadeInRight 1.5s 1 cubic-bezier(.77,0,.175,1);
+    animation: fadeInRight 1.5s 1 cubic-bezier(.77,0,.175,1);
+}
+
+ul.et_pb_side_nav .side_nav_item a {
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin-right: 10px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,.5);
+    text-indent: -9999px;
+}
+
+
+
+
