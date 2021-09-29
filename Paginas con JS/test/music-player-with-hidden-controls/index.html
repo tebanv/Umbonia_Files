@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Music player with hidden controls</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!--  
+Music player with hidden controls
+
+Little tribute to one of my favourite albums
+http://digital.berryweight.com/album/music-for-imaginary-movies
+
+Streaming via Soundcloud
+-->
+
+<section class="wrapper">
+
+	<article class="music-container">
+
+		<div class="controls">
+			<input type="radio" name="controls" id="btn-play">
+			<label for="btn-play" class="lbl-btn-play"><span></span></label>
+
+			<input type="radio" name="controls" id="btn-pause">
+			<label for="btn-pause" class="lbl-btn-pause"><span></span></label>
+
+			<label class="lbl-btn-reset"><span></span></label>
+		</div>
+
+		<div class="cover">
+			<div class="static-card">
+				<img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="">
+			</div>
+			<div class="flip-card">
+				<img src="http://f1.bcbits.com/img/a1312167393_16.jpg" alt="">
+			</div>
+		</div>
+	</article>
+
+	<p class="info">Hover/Click on album cover to show controls</p>
+
+</section>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+<script src='https://connect.soundcloud.com/sdk/sdk-3.0.0.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-image: radial-gradient(ellipse at top, #ffffff, #bdc3c7 80%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#player {
+  transition: all 500ms ease;
+  position: relative;
+  margin: 0 auto;
+  height: 250px;
+}
+#player #cover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.5);
+}
+#player #cover:after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 50%;
+  background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0) 90%);
+  transform: skewX(-45deg);
+  transform-origin: top left;
+}
+#player #cover img {
+  display: block;
+}
+#player #record {
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+#player #trackInfos {
+  transition: all 500ms ease;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  opacity: 0;
+}
+#player #trackInfos:hover {
+  opacity: 1;
+}
+#player #trackInfos .now {
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  margin-bottom: 0.5rem;
+}
+#player #trackInfos #band {
+  text-transform: uppercase;
+}
+#player #trackInfos #track {
+  font-weight: 300;
+  color: #bdc3c7;
+}
+#player #trackInfos #play {
+  position: absolute;
+  top: calc(50% - 2.5rem);
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 5rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.closed {
+  width: 250px;
+}
+
+.open {
+  width: 350px;
+}
+
+@keyframes turntable {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-webkit-keyframes turntable {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-moz-keyframes turntable {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+@-o-keyframes turntable {
+  0% {
+    transform: rotateZ(0);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.streamew {
+  text-align: center;
+  margin-top: 5rem;
+  color: #7f8c8d;
+}
+.streamew a {
+  color: #3498db;
+  text-decoration: none;
+}
