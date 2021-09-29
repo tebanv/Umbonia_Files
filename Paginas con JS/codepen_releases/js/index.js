@@ -11,7 +11,6 @@ var trackid = "386427926"
 // VARS
 var audioPlayer;
 
-
 // Init Soundcloud Widget
 SC.initialize({
 	client_id: CLIENTID
